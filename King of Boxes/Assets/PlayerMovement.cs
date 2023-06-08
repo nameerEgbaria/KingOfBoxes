@@ -15,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if (Input.GetKeyDown("space"))
         {
-            GetComponent<Rigidbody>().velocity = new Vector3(0, 4, 0);
+            GetComponent<Rigidbody>().velocity = new Vector3(0, 6, 0);
         }
         if (Input.GetKey("up"))
         {
