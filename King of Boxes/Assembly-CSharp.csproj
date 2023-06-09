@@ -55,6 +55,8 @@
   <ItemGroup>
     <Compile Include="Assets\PlayerMovement.cs" />
     <Compile Include="Assets\CubeMovement.cs" />
+    <Compile Include="Assets\CameraForThePlayer.cs" />
+    <Compile Include="Assets\MoveTheBox.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
