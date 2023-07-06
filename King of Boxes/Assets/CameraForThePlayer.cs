@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class CameraFollow : MonoBehaviour
+public class CameraForThePlayer : MonoBehaviour
 {
     public Transform target; // Reference to the player object
     public Vector3 offset = new Vector3(0f, 5f, -10f); // Distance and position offset from the player

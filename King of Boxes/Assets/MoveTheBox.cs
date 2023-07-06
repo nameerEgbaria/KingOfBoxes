@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class PlayerController : MonoBehaviour
+public class MoveTheBox: MonoBehaviour
 {
     public float pushForce = 10f; // The force applied to the box when pushing
 
