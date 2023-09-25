@@ -27,7 +27,7 @@ public class PlayerInteract : MonoBehaviour
     {
         // Raycast forward from the player to check for boxes
         RaycastHit hit;
-        if (Physics.Raycast(transform.position, transform.forward, out hit, 2.0f))
+        if (Physics.Raycast(transform.position, transform.forward, out hit, 2f))
         {
             if (hit.collider.CompareTag("Box"))
             {
