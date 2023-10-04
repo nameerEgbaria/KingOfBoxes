@@ -20,3 +20,20 @@ We designed a player character and implemented box pushing mechanics. Additional
 ### Total Hours:
 #### Marah: 12 Hours.
 #### Nameer: 12 Hours.
+
+
+## Week 5+6:
+1) We fixed the map.
+2) We resolved the issue where the player would get stuck with the block by pressing "D" especially in corners, if we press "D" the box will stuck with player and move with him untill we press "D" again.
+3) We implemented a 2D camera that provides an overhead view of the entire map when the "U" key is pressed. and it we press"U" again it will turn to the main camera.
+4) Targets have been added to the map; when the box reaches a target, its color changes to green, and it becomes immobile.
+5) If the "D" key is pressed when the box is on a target, it can be moved again. We implemented this feature for future use, such as changing the box's position to allow another box to reach a specific target.
+6) We are still working on improving the camera's behavior to stay behind the player and rotate with them.
+![video2776693452](C:\Users\marah\OneDrive\Desktop\kingsofbox2023\video2776693452.mp4)
+
+### Total Hours:
+#### Marah: 16 Hours.
+#### Nameer: 16 Hours.
+
+
+
