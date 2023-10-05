@@ -54,7 +54,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\BoxController.cs" />
     <Compile Include="Assets\CameraFollow.cs" />
+    <Compile Include="Assets\CameraSwitcher.cs" />
     <Compile Include="Assets\PlayerInteract.cs" />
   </ItemGroup>
   <ItemGroup>

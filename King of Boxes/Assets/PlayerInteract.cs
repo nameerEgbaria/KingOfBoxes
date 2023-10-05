@@ -8,7 +8,7 @@ public class PlayerInteract : MonoBehaviour
     private void Update()
     {
         // Check for user input to interact with boxes
-        if (Input.GetKeyDown(KeyCode.D))
+        if (Input.GetKeyDown(KeyCode.T))
         {
             // If the player is carrying a box, drop it
             if (isCarrying)
@@ -20,6 +20,12 @@ public class PlayerInteract : MonoBehaviour
                 // If the player is not carrying a box, try to pick one up
                 TryPickUpBox();
             }
+        }
+
+        // Check for move forward input and whether the player is carrying a box
+        if (isCarrying && Input.GetKey(KeyCode.W))
+        {
+            EnableBoxPhysics();
         }
     }
 
@@ -53,5 +59,14 @@ public class PlayerInteract : MonoBehaviour
         carriedBox.GetComponent<Rigidbody>().isKinematic = false; // Enable box physics
         carriedBox = null;
         isCarrying = false;
+    }
+
+    private void EnableBoxPhysics()
+    {
+        if (carriedBox != null)
+        {
+            carriedBox.GetComponent<Rigidbody>().isKinematic = false; // Enable box physics
+            DropBox(); // Drop the box when moving forward while carrying it
+        }
     }
 }
