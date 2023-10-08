@@ -49,7 +49,8 @@ public class BoxController : MonoBehaviour
 
 
             // Enable the Rigidbody to allow movement again
-            rb.isKinematic = false;
+           if(!PlayerInteract.isCarrying)
+                rb.isKinematic = false;
         }
     }
 

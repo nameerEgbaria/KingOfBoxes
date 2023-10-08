@@ -3,7 +3,7 @@ using UnityEngine;
 public class PlayerInteract : MonoBehaviour
 {
     private GameObject carriedBox; // Reference to the box the player is carrying
-    private bool isCarrying; // Flag to check if the player is carrying a box
+    public static bool isCarrying; // Flag to check if the player is carrying a box
 
     private void Update()
     {
@@ -23,10 +23,10 @@ public class PlayerInteract : MonoBehaviour
         }
 
         // Check for move forward input and whether the player is carrying a box
-        if (isCarrying && Input.GetKey(KeyCode.W))
-        {
-            EnableBoxPhysics();
-        }
+        //if (isCarrying && Input.GetKey(KeyCode.W))
+        //{
+        //    EnableBoxPhysics();
+        //}
     }
 
     private void TryPickUpBox()
