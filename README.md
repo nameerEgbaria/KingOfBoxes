@@ -35,5 +35,22 @@ We designed a player character and implemented box pushing mechanics. Additional
 #### Marah: 16 Hours.
 #### Nameer: 16 Hours.
 
+## Week 7+8:
 
+1) There was a problem with the box moving forward when we attached it, but we fixed it.
+2) We resolved the issue of changing color when the box is not on the target.
+3) We downloaded a 3D design for a player and tried to make it appear as if it were a 2D camera. However, this caused a lot of problems, so we decided to delete it.
+4) We created a start screen with a button.
+5) We designed a finish screen that activates when all the boxes turn green.
+
+Nameer worked on tasks 1, 2, and 3.
+Marah worked on tasks 1, 4, and 5.
+
+
+https://github.com/nameerEgbaria/KingOfBoxes/assets/94001337/43080efd-3ac0-4a22-9df0-44bcb0bb7b2e
+
+
+### Total Hours:
+#### Marah: 12 Hours.
+#### Nameer: 12 Hours.
 
