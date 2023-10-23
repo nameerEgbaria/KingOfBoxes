@@ -16,7 +16,11 @@ We have started learning about Unity and how to use it, and now we know how to s
 
 ## Week 3+4:
 We designed a player character and implemented box pushing mechanics. Additionally, we created a basic maze-like environment. In week 3, we encountered difficulties with GitHub, which took us a while to understand the cause. One of us made a commit while the other had already made changes to the game. When she performed a pull, GitHub displayed numerous errors.
-![video3354195423](C:\Users\marah\OneDrive\Desktop\kingsofbox2023\video3354195423.mp4)
+
+
+https://github.com/nameerEgbaria/KingOfBoxes/assets/94001337/83bd485e-463c-4a46-a015-4aeec3f3a5c9
+
+
 ### Total Hours:
 #### Marah: 12 Hours.
 #### Nameer: 12 Hours.
@@ -29,7 +33,11 @@ We designed a player character and implemented box pushing mechanics. Additional
 4) Targets have been added to the map; when the box reaches a target, its color changes to green, and it becomes immobile.
 5) If the "D" key is pressed when the box is on a target, it can be moved again. We implemented this feature for future use, such as changing the box's position to allow another box to reach a specific target.
 6) We are still working on improving the camera's behavior to stay behind the player and rotate with them.
-![video2776693452](C:\Users\marah\OneDrive\Desktop\kingsofbox2023\video2776693452.mp4)
+
+
+https://github.com/nameerEgbaria/KingOfBoxes/assets/94001337/86601ead-e2f1-4da5-9fbe-b91089a6559c
+
+
 
 ### Total Hours:
 #### Marah: 16 Hours.
