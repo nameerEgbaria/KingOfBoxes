@@ -4,27 +4,33 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform target;           // The player's Transform that the camera will follow
     public float smoothSpeed = 0.125f; // The smoothing speed of the camera movement
-    public Vector3 offset = new Vector3(0, 2, -5); // The offset from the player's position
-    public float lookaheadDistance = 2.0f; // How much the camera looks ahead of the player
 
     private void LateUpdate()
     {
         if (target == null)
             return;
 
-        // Calculate the desired position for the camera based on the player's position and offset
-        Vector3 desiredPosition = target.position + offset;
+        float horizontalInput = Input.GetAxis("Horizontal");
+        float verticalInput = Input.GetAxis("Vertical");
 
-        // Calculate a lookahead position based on the player's movement
-        Vector3 lookaheadPosition = target.position + target.forward * lookaheadDistance;
+        // Calculate the desired rotation for the camera based on player input
+        Quaternion desiredRotation;
 
-        // Interpolate between the desired position and lookahead position to follow the player
-        Vector3 smoothedPosition = Vector3.Lerp(desiredPosition, lookaheadPosition, smoothSpeed);
+        if (verticalInput < 0)
+        {
+            desiredRotation = Quaternion.Euler(0, target.eulerAngles.y + 180, 0);
+        }
+        else
+        {
+            float rotationAmount = horizontalInput * 90.0f;
+            desiredRotation = Quaternion.Euler(0, target.eulerAngles.y + rotationAmount, 0);
+        }
 
-        // Update the camera's position
-        transform.position = smoothedPosition;
+        // Update the camera's rotation
+        transform.rotation = Quaternion.Lerp(transform.rotation, desiredRotation, smoothSpeed);
 
-        // Make the camera look at the player
-        transform.LookAt(target);
+        // Set the camera's position relative to the player
+        Vector3 offset = transform.rotation * new Vector3(0, 2, -5);
+        transform.position = target.position + offset;
     }
 }
