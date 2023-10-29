@@ -20,10 +20,23 @@ public class FinishGame : MonoBehaviour
             }
         }
 
-        // If all boxes are green, load the finish scene
+        // If all boxes are green, determine the next scene based on the current scene
         if (allBoxesTurnedGreen)
         {
-            SceneManager.LoadScene("Finish Screen"); // Replace "FinishScene" with the actual name of your finish scene
+            string currentSceneName = SceneManager.GetActiveScene().name;
+
+            // Load the appropriate next scene based on the current scene
+            if (currentSceneName == "level01")
+            {
+                SceneManager.LoadScene("level02");
+            }
+            else if (currentSceneName == "level02")
+            {
+                SceneManager.LoadScene("finish screen");
+            }
+            // Add more conditions if you have additional levels
+
+            // Note: Make sure your scene names match the actual scene names in your project.
         }
     }
 }
