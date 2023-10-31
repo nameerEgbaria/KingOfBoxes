@@ -353,6 +353,7 @@
 "Assets/GameManager.cs"
 "Assets/PlayerInteract.cs"
 "Assets/PlayerMovement.cs"
+"Assets/RestartLevel.cs"
 "Assets/startmenu.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
