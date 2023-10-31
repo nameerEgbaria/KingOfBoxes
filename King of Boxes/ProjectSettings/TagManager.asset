@@ -13,9 +13,9 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
-  - 
+  - BOXLayer
+  - TargetLayer
+  - MapLayer
   - 
   - 
   - 
