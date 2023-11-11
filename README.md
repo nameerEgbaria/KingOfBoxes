@@ -4,14 +4,14 @@
 We discussed the game idea with a lecturer and received approval to proceed with the pitch for the game. Subsequently, we created a new GitHub repository and initiated a new project in Unity. Additionally, we established a private channel on Slack to facilitate effective communication and collaboration.
 
 ### Total Hours:
-#### Marah: 8 Hours.
-#### Nameer: 8 Hours.
+#### Marah: 10 Hours.
+#### Nameer: 10 Hours.
 
 ## Week 2:
 We have started learning about Unity and how to use it, and now we know how to start and design in Unity.
 ### Total Hours:
-#### Marah: 8 Hours.
-#### Nameer: 8 Hours.
+#### Marah: 10 Hours.
+#### Nameer: 10 Hours.
 
 
 ## Week 3+4:
@@ -22,8 +22,8 @@ https://github.com/nameerEgbaria/KingOfBoxes/assets/94001337/83bd485e-463c-4a46-
 
 
 ### Total Hours:
-#### Marah: 12 Hours.
-#### Nameer: 12 Hours.
+#### Marah: 16 Hours.
+#### Nameer: 16 Hours.
 
 
 ## Week 5+6:
@@ -59,6 +59,19 @@ https://github.com/nameerEgbaria/KingOfBoxes/assets/94001337/43080efd-3ac0-4a22-
 
 
 ### Total Hours:
-#### Marah: 12 Hours.
-#### Nameer: 12 Hours.
+#### Marah: 16 Hours.
+#### Nameer: 16 Hours.
 
+## Week 9+10
+
+1) We make the camera move with the player to the sides and back. When we move to the right or left, the camera will move 90 degrees, and when we move backward, the camera will turn 180 degrees with the player to see what is in the back.
+2) We fix the map, and we make the level harder.
+3) We create another level and figure out how to move from one level to another.
+4) We implement a reset button. If the box is stuck and the player decides to reset the game, pressing 'R' will take us back to the beginning of the same level.
+5) When we switch to the second player (the 2D camera) and then return to the main player, we will send messages and instructions on how to move the player. We'll provide information on the number of gray boxes and how to reach the closest gray box, along with instructions on how to move to the closest target to place the box.
+
+Nameer worked on 1+3+5, and Marah worked on 2+4+5.
+
+### Total Hours:
+#### Marah: 20 Hours.
+#### Nameer: 20 Hours.
