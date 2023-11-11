@@ -72,6 +72,10 @@ https://github.com/nameerEgbaria/KingOfBoxes/assets/94001337/43080efd-3ac0-4a22-
 
 Nameer worked on 1+3+5, and Marah worked on 2+4+5.
 
+
+https://github.com/nameerEgbaria/KingOfBoxes/assets/94001337/8c990d6a-0dd7-48b4-ae6e-18cf206eb800
+
+
 ### Total Hours:
 #### Marah: 20 Hours.
 #### Nameer: 20 Hours.
