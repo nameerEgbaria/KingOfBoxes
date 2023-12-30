@@ -169,12 +169,3 @@
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles .vs/MonoBleedingEdge/etc/mono/4.5/web.config","enqueuedNodeIndex":167,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":170}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles .vs/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser","enqueuedNodeIndex":168,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":170}
 {"msg":"enqueueNode","enqueuedNodeAnnotation":"CopyFiles .vs/MonoBleedingEdge/etc/mono/mconfig/config.xml","enqueuedNodeIndex":169,"enqueueingNodeAnnotation":"Player","enqueueingNodeIndex":170}
-{"msg":"nodeOutputsMissing","annotation":"CopyFiles .vs/King of Boxes.exe","index":146,"files":[".vs\\King of Boxes.exe"],"directories":[]}
-{"msg":"runNodeAction","annotation":"CopyFiles .vs/King of Boxes.exe","index":146}
-{"msg":"noderesult","processed_node_count":95,"number_of_nodes_ever_queued":170,"annotation":"CopyFiles .vs/King of Boxes.exe","index":146,"exitcode":0,"outputfile":".vs\\King of Boxes.exe"}
-{"msg":"inputSignatureChanged","annotation":"CopyFiles .vs/King of Boxes_Data/Managed/Assembly-CSharp.pdb","index":27,"changes":[{"key":"InputFileList","value":["Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.pdb"],"oldvalue":[],"dependency":"explicit"}]}
-{"msg":"runNodeAction","annotation":"CopyFiles .vs/King of Boxes_Data/Managed/Assembly-CSharp.pdb","index":27}
-{"msg":"noderesult","processed_node_count":135,"number_of_nodes_ever_queued":170,"annotation":"CopyFiles .vs/King of Boxes_Data/Managed/Assembly-CSharp.pdb","index":27,"exitcode":0,"outputfile":".vs\\King of Boxes_Data\\Managed\\Assembly-CSharp.pdb"}
-{"msg":"inputSignatureChanged","annotation":"CopyFiles .vs/King of Boxes_Data/Managed/Assembly-CSharp.dll","index":26,"changes":[{"key":"InputFileList","value":["Temp\\StagingArea\\Data\\Managed\\Assembly-CSharp.dll"],"oldvalue":[],"dependency":"explicit"}]}
-{"msg":"runNodeAction","annotation":"CopyFiles .vs/King of Boxes_Data/Managed/Assembly-CSharp.dll","index":26}
-{"msg":"noderesult","processed_node_count":167,"number_of_nodes_ever_queued":170,"annotation":"CopyFiles .vs/King of Boxes_Data/Managed/Assembly-CSharp.dll","index":26,"exitcode":0,"outputfile":".vs\\King of Boxes_Data\\Managed\\Assembly-CSharp.dll"}
