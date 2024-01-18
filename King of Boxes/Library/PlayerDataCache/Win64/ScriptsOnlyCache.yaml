@@ -14,7 +14,6 @@ ScriptsOnlyBuild:
     - ExitGames.Demos.DemoPunVoice.OrthographicController
     - ExitGames.Demos.DemoPunVoice.ThirdPersonController
     - FinishGame
-    - OutputAudioRecorder
     - PlayerInteract
     - PlayerMovement
     - PointersController
@@ -1602,12 +1601,6 @@ ScriptsOnlyBuild:
     assemblyName: Unity.VisualScripting.Core.dll
     namespaceName: Unity.VisualScripting
     className: UnityOnPointerClickMessageListener
-  - hash:
-      serializedVersion: 2
-      Hash: 572aae0a3adaa8839bdd2013c7db58d7
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: OutputAudioRecorder
   - hash:
       serializedVersion: 2
       Hash: 11bdd61587db747672b66c52442395d8

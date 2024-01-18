@@ -378,7 +378,6 @@
 "Assets/CreateAndJoinRooms.cs"
 "Assets/FinishGame.cs"
 "Assets/GameManager.cs"
-"Assets/OutputAudioRecorder.cs"
 "Assets/Photon/PhotonChat/Demos/Common/EventSystemSpawner.cs"
 "Assets/Photon/PhotonChat/Demos/Common/OnStartDelete.cs"
 "Assets/Photon/PhotonChat/Demos/Common/TextButtonTransition.cs"
