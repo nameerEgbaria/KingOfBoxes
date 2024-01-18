@@ -131,12 +131,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: CreateAndJoinRooms
     methodName: JoinRoom
-  - assembly: Assembly-CSharp
-    fullTypeName: OutputAudioRecorder
-    methodName: StartRecording
-  - assembly: Assembly-CSharp
-    fullTypeName: OutputAudioRecorder
-    methodName: StopRecording
   sceneClasses:
     Assets/Scenes/finish screen.unity:
     - Class: 1
@@ -221,14 +215,6 @@ ScriptsOnlyBuild:
     - Class: 108
       Script: {instanceID: 0}
     - Class: 114
-      Script: {instanceID: 1636}
-    - Class: 114
-      Script: {instanceID: 1638}
-    - Class: 114
-      Script: {instanceID: 1640}
-    - Class: 114
-      Script: {instanceID: 1698}
-    - Class: 114
       Script: {instanceID: 1720}
     - Class: 114
       Script: {instanceID: 1936}
@@ -238,8 +224,6 @@ ScriptsOnlyBuild:
       Script: {instanceID: 2308}
     - Class: 114
       Script: {instanceID: 2808}
-    - Class: 114
-      Script: {instanceID: 3048}
     - Class: 114
       Script: {instanceID: 3266}
     - Class: 114
@@ -268,21 +252,11 @@ ScriptsOnlyBuild:
       Script: {instanceID: 7896}
     - Class: 115
       Script: {instanceID: 0}
-    - Class: 128
-      Script: {instanceID: 0}
     - Class: 136
       Script: {instanceID: 0}
     - Class: 157
       Script: {instanceID: 0}
     - Class: 196
-      Script: {instanceID: 0}
-    - Class: 213
-      Script: {instanceID: 0}
-    - Class: 222
-      Script: {instanceID: 0}
-    - Class: 223
-      Script: {instanceID: 0}
-    - Class: 224
       Script: {instanceID: 0}
     Assets/Scenes/level02.unity:
     - Class: 1
@@ -2194,7 +2168,7 @@ ScriptsOnlyBuild:
     className: TMP_FrameRateCounter
   - hash:
       serializedVersion: 2
-      Hash: a7fc7eb7dc3c090331f55905d25f13a2
+      Hash: d8eb42f14ef6cae91a22f3ae1b50204d
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: CameraSwitcher

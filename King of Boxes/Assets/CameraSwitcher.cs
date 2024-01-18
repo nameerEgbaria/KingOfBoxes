@@ -9,8 +9,7 @@ public class CameraSwitcher : MonoBehaviour
     public Camera MainCamera;    // Reference to the main camera.
     public Camera Camera2D;  // Reference to the second camera.
     public PhotonView view2;
-    public Button StartButton;
-    public Button StopButton;
+    
     void Start()
     {
         view2 = GetComponent<PhotonView>();
@@ -18,15 +17,13 @@ public class CameraSwitcher : MonoBehaviour
         {
             MainCamera.enabled = true;
             Camera2D.enabled = false;
-            StartButton.gameObject.SetActive(false);
-            StopButton.gameObject.SetActive(false);
+            
         }
         else
         {
             MainCamera.enabled = false;
             Camera2D.enabled = true;
-            StartButton.gameObject.SetActive(true);
-            StopButton.gameObject.SetActive(true);
+            
         }
 
 
